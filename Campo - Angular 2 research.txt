@@ -1,0 +1,77 @@
+Angular 2
+
+Angular 2.0 was announced at the ng-Europe conference 22-23. September 2014.[17] The drastic changes in the 2.0 version created considerable controversy among developers.[18] On April 30, 2015, the Angular developers announced that Angular 2 moved from Alpha to Developer Preview.[19] Angular 2 can be downloaded from the official website. Angular 2 moved to Beta in December 2015,[20] and the first release candidate was published in May 2016.[21] The final version was released on September 14, 2016.
+
+Angular 2 is not a version upgrade, but a complete rewrite. The primary differences in Angular 2 over Angular 1 are:[22]
+
+    Mobile development – desktop development is much easier when mobile performance issues are handled first
+    Modularity – much core functionality has moved to modules, producing a lighter, faster core
+    Modern browsers only – reducing the need for browser compatibility workarounds
+    Angular 2 recommends the use of Microsoft's TypeScript language, which introduces the following improvements:
+        Class-based Object Oriented Programming
+        Static Typing
+        Generics
+        Lambdas
+    TypeScript is a superset of ECMAScript 6, and is backwards compatible with ECMAScript 5 (i.e.: JavaScript). Angular 2 also includes the benefits of ES6:
+        Iterators
+        For/Of loops
+        Python-style generators
+        Reflection
+    Improved dependency injection – bindings make it possible for dependencies to be named
+    Dynamic loading
+    Asynchronous template compilation
+    Simpler Routing
+    Diary.js logging – measures where time is spent, to identify bottlenecks[23]
+    Replacing controllers and $scope with components and directives – a component is a directive with a template
+    Reactive programming support using RxJS
+
+
+
+
+
+The second version of the AngularJS web framework. Angular 2 takes a web component-based approach to building powerful applications for the web. It is used along with TypeScript which provides support for ECMAScript 5, ECMAScript 6, and ECMAScript 7.
+
+The second version of the AngularJS web framework.
+
+Angular 2.0.0 has released now (15 September 2016).
+
+Features and Benefits
+
+    Mobile First
+    Future Ready
+    Flexible Development
+    Speed and Performance
+    Supports server-side pre-rendering
+    Simple and Expressive
+    Comprehensive Routing
+    Animations
+    Hierarchical Dependency Injection
+    Support for Web Components
+    Internationalisation and localisation (i18n) & Accessibility
+    More information
+
+Building Blocks of Angular Apps
+
+    Module : A typical module is a cohesive block of code dedicated to a single purpose. A module exports something of value in that code, typically one thing such as a class.
+    Component : A component is a building block with component metadata. In TypeScript we'd apply the @Component decorator to attach metadata to the class. This metadata mainly consists of the template or templateUrl, the selector and the attached styling.
+    Template : We define a Component's view with its companion template. A template is a form of HTML that tells Angular how to render the Component.
+    Metadata : Metadata tells Angular how to process a class.
+
+    Data Binding : Angular supports data binding, a mechanism for coordinating parts of a template with parts of a component. There are four forms of data-binding syntax:
+        Interpolation: {{value}}
+        Property binding : [property]="value"
+        Event Binding : (event)="handler"
+        Two-way data binding: [(ngModel)]="property"
+
+    Service : "Service" is a broad category encompassing any value, function or feature that our application needs.
+    Directive : A directive is a class with directive metadata. In TypeScript we'd apply the @Directive decorator to attach metadata to the class.
+    Dependency Injection : "Dependency Injection" is a way to supply a new instance of a class with the fully-formed dependencies it requires. Most dependencies are services. Angular uses dependency injection to provide new components with the services they need.
+    Pipes : Pipes are used to transform values from one form to another. Angular offers many built-in pipes. Also you can create custom pipes too.
+
+Latest Version
+
+2.2.0 (Novemeber 14th 2016)
+Browser Support
+
+    Latest versions of Chrome, Edge, Firefox, IE and Safari
+    Tested for older browsers including IE9+ and Android 4.1+
