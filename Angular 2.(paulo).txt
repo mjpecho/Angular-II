@@ -1,0 +1,28 @@
+Angular 2
+
+Angular 2.0 was announced at the ng-Europe conference 22-23. September 2014.The drastic changes in the 2.0 version created considerable controversy among developers.On April 30, 2015, the Angular developers announced that Angular 2 moved from Alpha to Developer Preview.Angular 2 can be downloaded from the official website. Angular 2 moved to Beta in December 2015,and the first release candidate was published in May 2016. The final version was released on September 14, 2016.
+
+Angular 2 is not a version upgrade, but a complete rewrite. The primary differences in Angular 2 over Angular 1 are:
+
+   -Mobile development – desktop development is much easier when mobile performance issues are handled first
+   -Modularity – much core functionality has moved to modules, producing a lighter, faster core
+   -Modern browsers only – reducing the need for browser compatibility workarounds
+   -Angular 2 recommends the use of Microsoft's TypeScript language, which introduces the following improvements:
+
+        *Class-based Object Oriented Programming
+        *Static Typing
+        *Generics
+        *Lambdas
+   -TypeScript is a superset of ECMAScript 6, and is backwards compatible with ECMAScript 5 (i.e.: JavaScript). Angular 2 also includes the benefits of ES6:
+
+        *Iterators
+        *For/Of loops
+        *Python-style generators
+        *Reflection
+    	*Improved dependency injection – bindings make it possible for dependencies to be named
+    	*Dynamic loading
+    	*Asynchronous template compilation
+    	*Simpler Routing
+    	*Diary.js logging – measures where time is spent, to identify bottlenecks[23]
+    	*Replacing controllers and $scope with components and directives – a component is a directive with a template
+    	*Reactive programming support using RxJS
