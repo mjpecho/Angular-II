@@ -1,0 +1,30 @@
+ANGULAR II
+
+
+-Angular 2 is an open source JavaScript framework to build web applications in
+HTML and JavaScript and has been conceived as a mobile first approach.
+
+-Angular 2 is the new improved version of the ever popular JavaScript framework
+AngularJS. Angular 2 is a re-imagining of Angular applying all lessons learned from v1.x 
+and promotes av component based architecture while leveraging new features of ES2015 
+(or TypeScript) like classes and modules.
+
+-  Components in Angular 2 are like a directive with a template, an isolated scope and a controller.
+    -ng-repeat becomes *ngFor, ng-if becomes *ngIf.
+-Data binding
+        *one-way data binding in Angular 2 is called property binding and denoted inside []
+	 (f.i. <person-detail [id]="person.id" />).
+        *event binding from Angular 1 ng-click, ng-change, etc to Angular 2 (click), (change).
+        *two-way data binding from Angular 1 ng-model to Angular 2 [(ngModel)].
+-Angular 2 has a lot less directives than Angular 1. In Angular 2 you can leverage the property-binding 
+	syntax to bind to DOM properties and events directly. (40+ angular directives according to John papa)
+-Angular 2 consolidates the idea of service classes. From Angular 1 service, factory, providers, 
+	constants and values we get Angular 2 services which are just classes.
+-Angular 2 http uses mainly rxjs instead of promises (although you can converted a stream into a promise)
+-Angular 2 routing
+        use @RouteConfig decorator instead of ng1 $routeProvider
+        use <router-outlet instead of <ng-view>
+        use [router-link]="link" instead of ng-href
+        use RouteParams instead of $routerParams
+        use Router instead of $router
+        child routes built-in ng2 (sub-components can define their own routing)
